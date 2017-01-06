@@ -246,39 +246,7 @@ namespace CPlusPlussToCSharp
 
          */
 
-    class Player
-    {
-        public Player() { }
-
-        private int m_health = 50;
-        private string m_name;
-        private int m_attack;
-
-        public int Health
-        {
-
-            get { return m_health; }
-            set { value = m_health; }
-
-        }
-
-        public string Name
-        {
-
-            get { return m_name; }
-            set { value = m_name; }
-
-        }
-
-        public int Attack
-        {
-
-            get { return m_attack; }
-            set { value = m_attack; }
-
-        }
-    }
-
+ 
 
 
     class Program
@@ -287,7 +255,7 @@ namespace CPlusPlussToCSharp
         static void Main(string[] args)
         {
 
-
+            
 
         }
 
