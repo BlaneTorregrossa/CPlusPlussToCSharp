@@ -223,17 +223,62 @@ namespace CPlusPlussToCSharp
 
     */
 
-    //Arrays
-    /*
-     
-         
-         */
-
     //Functions
     /*
-     
-         
+     Functions 1
+
+            {
+                int the_variablea = 1;
+                Console.WriteLine(the_variablea);
+                {
+                    Console.WriteLine(the_variablea);
+                    int the_variableb = 2;
+                    Console.WriteLine(the_variableb);
+                    {
+                        Console.WriteLine(the_variableb);
+                        int the_variablec = 3;
+                        Console.WriteLine(the_variablec);
+                    }
+                    Console.WriteLine(the_variableb);
+                }
+                Console.WriteLine(the_variablea);
+            }
+
          */
+
+    class Player
+    {
+        public Player() { }
+
+        private int m_health = 50;
+        private string m_name;
+        private int m_attack;
+
+        public int Health
+        {
+
+            get { return m_health; }
+            set { value = m_health; }
+
+        }
+
+        public string Name
+        {
+
+            get { return m_name; }
+            set { value = m_name; }
+
+        }
+
+        public int Attack
+        {
+
+            get { return m_attack; }
+            set { value = m_attack; }
+
+        }
+    }
+
 
 
     class Program
@@ -241,7 +286,9 @@ namespace CPlusPlussToCSharp
 
         static void Main(string[] args)
         {
-           
+
+
+
         }
 
 
